@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mada:wght@600;700&family=Noto+Kufi+Arabic:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <style>
+        .categoryH{
+            display: flex;
+        }
+        .worker{
+            border-bottom: double;
+            display: flex;
+            justify-content: center;
+            margin-right: 10px;
+        }
+        .sJob{
+            text-align: center;
+            font-size: 150%;
+        }
+        .adv{
+            width: 100%;
+            height: 100px;
+        }
+        .hDatials{
+            font-size: 150%;
+        }
+        .dDoctor{
+            font-size: 250%;
+            text-align: center;
+            margin-top: 20px;
+            font-weight: 800;
+        }
+        .cate-parts{
+            width: 100%;
+            background-color: blue;
+            /* position: fixed;
+            margin-top: -70%; */
+            height: 100%;
+            display: none;
+
+            
+            
+        }
+        .delete-btn {
+            color: white;
+            font-size: 16px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            width: 5.5%;
+        }
+        /* #cateDoctor{
+            display: none;
+        }
+        #cate-flat{
+            display: none;
+        } */
+        #creditc{
+            text-align: center;
+            font-size: 130%;
+        }
+        #flatf,#teacher-b{
+            font-size: 250%;
+        }
+        #flatb,#teacher-b{
+            padding-top: 9%;
+            padding-bottom: 9%;
+        }
+        #image{
+            /* transition: 800s; */
+            height: 500px;
+            display: flex;
+            border-radius:0 40px;
+        }
+
+    </style>
+</head>
+<body dir="ltr" id="body">
+
+<!-- header section starts  -->
+
+<header class="header" id="header">
+
+    <a href="index.html" class="logo" > <i class="fas fa-graduation-cap."></i> BNSevices </a>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <ul>
+            <!-- <li><a href="home.html">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="#">courses +</a>
+                <ul>
+                    <li><a href="course-1.html">course 01</a></li>
+                    <li><a href="course-2.html">course 02</a></li>
+                    <li><a href="course-3.html">course 03</a></li>
+                </ul>
+            </li>
+            <li><a href="#">pages +</a>
+                <ul>
+                    <li><a href="teachers.html">teachers</a></li>
+                    <li><a href="blog.html">blogs</a></li>
+                </ul>
+            </li> -->
+            <li><a href="contact.html"> تواصل معنا </a></li>
+            <li><a href="contact.html"> دخول </a></li>
+            <li><div class="Blog" ><a href="contact.html">  انضم الان </a></li></div>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+<div class="adv" id="adv"><img src="images/category-1.png." alt="adv"></div>
+<section class="home" id="home">
+
+    <div class="image">
+        <img src="" id="image" alt=" صورة اعلان">
+    </div>
+
+    <div class="content" style="text-align: center;">
+        <h3 style="font-family: 'Mada', sans-serif;"> <div style="font-family: 'Mada', sans-serif;font-size: 90%;">BNSevices ,مرحبا بك في </div> لجميع الخدمات الخاصه بمحافظة بني سويف </h3>
+ 
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- categories section starts   part workers -->
+<h1 class="categoryH" id="categoryH" dir="rtl"> للبحث عن <div class="worker"> عامل </div>  </h1>
+<section class="category" id="category" dir="rtl">
+    
+    <a href="#" class="box" id="bDoctor">
+        <img src="https://cdn.pixabay.com/photo/2021/11/20/03/17/doctor-6810751_960_720.png" alt="NO">
+        <h3> طبيب </h3>
+    </a>
+    
+    <a href="#" class="box" id="teacher">
+        <img src="https://cdn.pixabay.com/photo/2022/06/25/06/50/students-7282947_960_720.png" alt="NO">
+        <h3> مدرس </h3>
+    </a>
+    
+    <a href="#" class="box">
+        <img src="images/nurse.png" alt="NO">
+        <h3> ممرض </h3>
+    </a>
+    <a href="#" class="box">
+        <img src="https://cdn.pixabay.com/photo/2016/06/13/09/40/carpenter-1453880_960_720.png" alt="NO">
+        <h3> نجار أثاث  </h3>
+    </a>
+</section>
+<section class="category" id="category-4" dir="rtl">
+    <a href="#" class="box">
+        <img src="https://cdn.pixabay.com/photo/2023/01/01/09/59/engineer-7689854_960_720.png" alt="NO">
+        <h3> مقاول </h3>
+    </a>
+    <a href="#" class="box">
+        <img src="https://cdn.pixabay.com/photo/2012/04/02/13/05/painting-24439_960_720.png" alt="NO">
+        <h3> نقاش </h3>
+    </a>
+    <a href="#" class="box">
+        <img src="images/food.jpg" alt="NO">
+        <h3> طباخ </h3>
+    </a>
+
+</section>
+
+<!-- ***************************category all**********************************  -->
+<!-- ************cateDoctor***********  -->
+
+<div class="cate-parts" id="cateDoctor">
+    <div id="element-to-delete" dir="rtl">    
+        <div class="delete-btn" id="delete-btn">
+            <img src="images/times-circle-regular.svg" alt="">
+        </div>
+    </div>
+   <div class="dDoctor"> قسم الأطباء </div>
+    <section class="category" dir="rtl">
+        <a href="D-pNeonatologist.html" class="box">
+            <img src="https://img.freepik.com/free-photo/doctor-doing-their-work-pediatrics-office_23-2149224144.jpg?w=2000&t=st=1677944322~exp=1677944922~hmac=b2b0e5565b9b9c6df5fd4d9d53a8b0c5757386abc9764efa3f2182517fc4362e" alt="NO">
+            <h3> دكتور اطفال وحديثي الولاده  </h3>
+        </a>
+    
+        <a href="D-psychological.html" class="box">
+            <img src="https://img.freepik.com/free-photo/mid-shot-woman-therapist-taking-notes-clipboard_23-2148759120.jpg" alt="NO">
+            <h3> دكتور نفسي </h3>
+        </a>
+        <a href="D-dentist.html" class="box">
+            <img src="https://img.freepik.com/free-photo/dentist-with-smile_144627-884.jpg?w=2000&t=st=1677944634~exp=1677945234~hmac=39aa39414d00d7d564ac763b6b304714224a45002e44486843d7b7a723a7cb95" alt="NO">
+            <h3> دكتور اسنان </h3>
+        </a>
+        <a href="D-cardiologist.html" class="box">
+            <img src="images/d-heart.jpg" alt="NO">
+            <h3> دكتور امراض قلبيه </h3>
+        </a>
+    </section>
+    <section class="category" dir="rtl">
+        <a href="D-eye.html" class="box">
+            <img src="images/d-eye.jpg" alt="NO">
+            <h3> دكتور عيون  </h3>
+        </a>
+    
+        <a href="D-neurologist.html" class="box">
+            <img src="https://img.freepik.com/free-photo/researcher-looking-monitor-analysing-brain-scan-while-coworker-discussing-with-patient-background-about-side-effects-mind-functions-nervous-system-tomography-scan-working-laboratory_482257-13071.jpg?w=2000&t=st=1677944991~exp=1677945591~hmac=b30d92e74b16663e48f476f0b0808eeccf95faded3c0ab452531953746836eb4" alt="NO">
+            <h3> دكتور مخ واعصاب </h3>
+        </a>
+        <a href="D-orthopedist.html" class="box">
+            <img src="https://img.freepik.com/free-photo/cancer-patient-hospital-high-angle_23-2149870321.jpg?w=740&t=st=1677945103~exp=1677945703~hmac=b0557471c6155a04f48c9de3858830ed344b416798b9c5041d88260beea14fba" alt="NO">
+            <h3> دكتور عظام </h3>
+        </a>
+        <a href="D-oGnecology.html" class="box">
+            <img src="https://img.freepik.com/free-photo/pregnant-woman-standing-by-window-looking-photo_1157-46771.jpg?w=2000&t=st=1677945188~exp=1677945788~hmac=30840253e60076f1dd8bac190b6799482f5fded93d580bc06f31085a15d255fe" alt="NO">
+            <h3> دكتور نساء وتوليد </h3>
+        </a>
+    </section>
+    <div class="credit" id="creditc">  Copyright © 2023 <span> BNSevices   </span> </div>
+</div>
+
+<!-- **************flat***************  -->
+<div class="cate-parts" id="cate-flat">
+    <div id="element-to-delete" dir="rtl">    
+        <div class="delete-btn" id="delete-btn2">
+            <img src="images/times-circle-regular.svg" alt="">
+        </div>
+    </div>
+    <div class="dDoctor" id="flatf"> مكان الشقة  </div>
+    <section class="category" dir="rtl" id="flatb">
+        <a href="#" class="box" >
+            <img src="images/category-5.png" alt="NO">
+            <h3> شرق النيل </h3>
+        </a>
+        <a href="#" class="box">
+            <img src="images/category-5.png" alt="NO">
+            <h3> غرب النيل </h3>
+        </a>
+    </section>
+    <div class="credit" id="creditc">  Copyright © 2023 <span> BNSevices   </span> </div>
+</div>
+
+<!-- ************teacher**************  -->
+
+<div class="cate-parts" id="cate-teacher">
+    <div id="element-to-delete" dir="rtl">    
+        <div class="delete-btn" id="delete-btn3">
+            <img src="images/times-circle-regular.svg" alt="">
+        </div>
+    </div>
+    <div class="dDoctor" id="teacher-f"> قسم المدرسين </div>
+    <section class="category" dir="rtl" id="teacher-b">
+        <a href="#" class="box" >
+            <img src="images/category-4.png" alt="NO">
+            <h3>  القسم الابتدائي  </h3>
+        </a>
+    
+        <a href="#" class="box">
+            <img src="images/category-5.png." alt="NO">
+            <h3> القسم الاعدادي </h3>
+        </a>
+        <a href="#" class="box">
+            <img src="images/category-5.png." alt="NO">
+            <h3> القسم الثانوي </h3>
+        </a>
+    
+    </section>
+    <div class="credit" id="creditc">  Copyright © 2023 <span> BNSevices   </span> </div>
+</div>
+
+<!-- **************restaurant***************  -->
+<div class="cate-parts" id="cate-restaurant">
+    <div id="element-to-delete" dir="rtl">    
+        <div class="delete-btn" id="delete-btn4">
+            <img src="images/times-circle-regular.svg" alt="">
+        </div>
+    </div>
+    <div class="dDoctor" id="resaurantf"> نوع المطعم </div>
+    <section class="category" dir="rtl" id="restaurantb">
+        <a href="#" class="box" >
+            <img src="images/category-5.png." alt="NO">
+            <h3>  مطعم فراخ ولحوم </h3>
+        </a>
+        <a href="#" class="box">
+            <img src="images/category-5.png." alt="NO">
+            <h3>  مطعم اسماك </h3>
+        </a>
+    </section>
+    <section class="category" dir="rtl" id="flatb">
+        <a href="#" class="box" >
+            <img src="images/category-5.png." alt="NO">
+            <h3>  مطعم كشري </h3>
+        </a>
+        <a href="#" class="box">
+            <img src="images/category-5.png." alt="NO">
+            <h3>  مطعم فول وفلافل </h3>
+        </a>
+    </section>
+    <div class="credit" id="creditc">  Copyright © 2023 <span> BNSevices   </span> </div>
+</div>
+
+<!-- **************flat***************  -->
+<div class="cate-parts" id="cate-coffe">
+    <div id="element-to-delete" dir="rtl">    
+        <div class="delete-btn" id="delete-btn5">
+            <img src="images/times-circle-regular.svg" alt="">
+        </div>
+    </div>
+    <div class="dDoctor" id="flatf">  نوع القهوه  </div>
+    <section class="category" dir="rtl" id="flatb">
+        <a href="#" class="box" >
+            <img src="images/category-5.png" alt="NO">
+            <h3>  قهوه بلدي </h3>
+        </a>
+        <a href="#" class="box">
+            <img src="images/category-5.png" alt="NO">
+            <h3> قهوه خاصة </h3>
+        </a>
+    </section>
+    <div class="credit" id="creditc">  Copyright © 2023 <span> BNSevices   </span> </div>
+</div>
+
+
+
+<!-- categories section starts   part places -->
+<h1 class="categoryH" id="categoryH-1" dir="rtl"> للبحث عن <div class="worker"> اماكن </div>  </h1>
+<section class="category" id="category-1" dir="rtl">
+    
+    <a href="#" class="box">
+        <img src="https://cdn.pixabay.com/photo/2014/04/03/11/47/pharmacy-312139_960_720.png" alt="NO">
+        <h3> صيدليه </h3>
+    </a>
+    
+    <a href="#" class="box">
+        <img src="images/supermarket.png" alt="NO">
+        <h3> سوبر ماركت </h3>
+    </a>
+    <a href="#" class="box" id="restaurant">
+        <img src="https://cdn.pixabay.com/photo/2020/12/31/12/28/cook-5876388_960_720.png" alt="NO">
+        <h3> مطعم </h3>
+    </a>
+    
+    <a href="#" class="box" id="coffe">
+        <img src="https://cdn.pixabay.com/photo/2021/02/21/07/15/coffee-shop-6035501_960_720.png" alt="NO">
+        <h3> مقهي </h3>
+    </a>       
+
+
+</section>
+
+<section class="category" id="category-1-1" dir="rtl">
+    
+     
+    <a href="#" class="box">
+        <img src="https://cdn.pixabay.com/photo/2016/06/18/16/30/bread-1465232_960_720.png" alt="NO">
+        <h3> مخبز </h3>
+    </a>
+    
+    <a href="#" class="box">
+        <img src="https://cdn.pixabay.com/photo/2022/08/22/21/58/grocery-7404621_960_720.png" alt="NO">
+        <h3> فكهاني </h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="https://cdn.pixabay.com/photo/2023/02/07/11/02/doctor-7773848_960_720.png" alt="NO">
+        <h3>   معمل اشعه  </h3>
+    </a>
+    <a href="#" class="box">
+        <img src="https://cdn.pixabay.com/photo/2013/07/12/15/23/microscope-149816_960_720.png" alt="NO">
+        <h3>   معمل تحاليل  </h3>
+    </a>
+    
+
+</section>
+
+<section class="category" id="category-1-2" dir="rtl">   
+    <a href="#" class="box" id="flat">
+        <img src="https://cdn.pixabay.com/photo/2013/07/12/19/28/housing-154839_960_720.png" alt="NO">
+        <h3> شقة ايجار </h3>
+    </a>
+    
+    <a href="#" class="box">
+        <img src="images/m-car.svg" alt="NO">
+        <h3> تصليح سيارات </h3>
+    </a>
+
+</section>
+
+<!-- categories section starts   part prices -->
+<h1 class="categoryH" id="categoryH-2" dir="rtl"> للبحث عن <div class="worker"> مواعيد واسعار اليوم </div>  </h1>
+<section class="category" id="category-2" dir="rtl">
+    
+    <a href="#" class="box">
+        <img src="https://cdn.pixabay.com/photo/2013/07/13/12/41/pistol-160119_960_720.png" alt="NO">
+        <h3> اسعار البنزين </h3>
+    </a>
+    
+    <a href="#" class="box">
+        <img src="https://cdn.pixabay.com/photo/2013/07/12/12/55/gold-bar-146539_960_720.png" alt="NO">
+        <h3> اسعار الذهب </h3>
+    </a>
+    
+    <a href="#" class="box">
+        <img src="https://cdn.pixabay.com/photo/2013/07/13/01/22/vegetables-155616_1280.png" alt="NO">
+        <h3> اسعار الفواكه والخضروات </h3>
+    </a>
+    <a href="#" class="box">
+        <img src="https://cdn.pixabay.com/photo/2014/04/03/11/55/bus-312564_960_720.png" alt="NO">
+        <h3> اسعار المواصلات الداخليه </h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="https://cdn.pixabay.com/photo/2013/07/13/12/10/railroad-159321_960_720.png" alt="NO">
+        <h3>  مواعيد القطار </h3>
+    </a>
+
+</section>
+
+<!-- categories section starts   part jobs -->
+<h1 class="categoryH" id="categoryH-3" dir="rtl"> للبحث عن <div class="worker"> عمل </div> </h1>
+<div class="sJob" id="sJob" dir="rtl"> هذه الخدمه متاحه للباحثين عن عمل ويتم نشر الوظائف بالتعاون مع اصحاب العمل </div>
+<section class="category" id="category-3" dir="rtl">
+    <a href="#" class="box">
+        <img src="" alt="NO">
+        <h3>  </h3>
+    </a>
+    
+    <a href="#" class="box">
+        <img src="" alt="NO">
+        <h3>  </h3>
+    </a>
+    
+    <a href="#" class="box">
+        <img src="" alt="NO">
+        <h3>  </h3>
+    </a>
+    <a href="#" class="box">
+        <img src="" alt="NO">
+        <h3>  </h3>
+    </a>
+
+
+</section>
+
+<!-- categories section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer" dir="rtl" id="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <p class="hDatials"> <img src="" alt="no"> BNSevices</p>
+            <a href="home.html"> <i class="fas fa-arrow-right"></i> من نحن </a>
+            <a href="about.html"> <i class="fas fa-arrow-right"></i> فريق العمل </a>
+            <a href="contact.html"> <i class="fas fa-arrow-right"></i> للتواصل معنا </a>
+        </div>
+
+        
+        <div class="box">
+            <p class="hDatials"> للتواصيل معانا  </p>
+            <a href="#"> <i class="fas fa-arrow-right"></i> صفحتنا علي الفيسبوك </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> ارسال ملاحظاتك </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> مبرمج الموقع </a>         
+        </div>
+            
+            <div class="box">
+                <p class="hDatials">  تفاصيل </p>
+                <a href="#">  شروط الاستخدام </a>
+                <a href="#">  اتفاقية الخصوصية </a>
+                <a href="#"> اتفاقية الخصوصية للعامل </a>
+
+        </div>
+        
+    </div>
+    
+    <!-- <div class="box">
+        <p class="hDatials">  </p>
+         <a href="#"> <i class="fas fa-arrow-right"></i> web design </a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> graphic design</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> UI / UX design</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> seo marketing</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> digital marketing</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> email marketing</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> all courses</a> 
+    </div> -->
+    <div class="credit">  Copyright © 2023 <span> BNSevices   </span> </div>
+</section>
+
+<!-- footer section ends -->
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+<script>
+    const showButton = document.getElementById("bDoctor");
+    const showButtonflat = document.getElementById("flat");
+    const showButtonteacher = document.getElementById("teacher");
+    const showButtonresaurant= document.getElementById("restaurant");
+    const showButtoncoffe= document.getElementById("coffe");
+
+
+
+    
+    const hideButton = document.getElementById("delete-btn");
+    const hideButton2 = document.getElementById("delete-btn2");
+    const hideButton3 = document.getElementById("delete-btn3");
+    const hideButton4 = document.getElementById("delete-btn4");
+    const hideButton5 = document.getElementById("delete-btn5");
+
+
+
+
+    const box = document.getElementById("cateDoctor");
+    const box2 = document.getElementById("cate-flat");
+    const box3 = document.getElementById("cate-teacher");
+    const box4 = document.getElementById("cate-restaurant");
+    const box5 = document.getElementById("cate-coffe");
+
+
+
+
+    const cate = document.getElementById("category");
+    const cateh = document.getElementById("categoryH");const cateh1 = document.getElementById("categoryH-1");const cateh2 = document.getElementById("categoryH-2");const cateh3 = document.getElementById("categoryH-3");
+    const job = document.getElementById("sJob");
+    const home = document.getElementById("home");
+    const header = document.getElementById("header");
+    const footer = document.getElementById("footer");
+    const category = document.getElementById("category-1");const category2 = document.getElementById("category-2");const category3 = document.getElementById("category-3");const category4 = document.getElementById("category-4");
+    const adv = document.getElementById("adv");
+
+
+    const category11 = document.getElementById("category-1-1");
+    const category12 = document.getElementById("category-1-2");
+    
+    showButton.addEventListener("click", function() {
+        box.style.display = "block";
+        cate.style.display = "none";
+        cateh.style.display = "none";cateh1.style.display = "none";cateh2.style.display = "none";cateh3.style.display = "none";
+        job.style.display = "none";
+        category11.style.display = "none";
+        category12.style.display = "none";
+        home.style.display = "none";footer.style.display = "none";adv.style.display = "none";
+        category3.style.display = "none";category2.style.display = "none";category.style.display = "none";category4.style.display = "none";
+    });
+    hideButton.addEventListener("click", function() {
+        box.style.display = "none";
+        cate.style.display = "grid";
+        cateh.style.display = "flex";cateh1.style.display = "flex";cateh2.style.display = "flex";cateh3.style.display = "flex";
+        
+        job.style.display = "grid";
+        home.style.display = "-webkit-box";
+        footer.style.display = "grid";
+        adv.style.display = "flex";
+        category11.style.display = "grid";
+        category12.style.display = "grid";
+        category.style.display = "grid";category2.style.display = "grid";category3.style.display = "grid";category4.style.display = "grid";
+    });
+    
+    showButtonflat.addEventListener("click", function() {
+    box2.style.display = "block";
+    cate.style.display = "none";
+    cateh.style.display = "none";cateh1.style.display = "none";cateh2.style.display = "none";cateh3.style.display = "none";
+    job.style.display = "none";
+    category11.style.display = "none";
+    category12.style.display = "none";
+    home.style.display = "none";footer.style.display = "none";adv.style.display = "none";
+    category3.style.display = "none";category2.style.display = "none";category.style.display = "none";category4.style.display = "none";
+    
+    });
+    hideButton2.addEventListener("click", function() {
+    box2.style.display = "none";
+    cate.style.display = "grid";
+    cateh.style.display = "flex";cateh1.style.display = "flex";cateh2.style.display = "flex";cateh3.style.display = "flex";
+    job.style.display = "grid";
+    home.style.display = "-webkit-box";
+    footer.style.display = "grid";
+    adv.style.display = "flex";
+    category11.style.display = "grid";
+    category12.style.display = "grid";
+    category.style.display = "grid";category2.style.display = "grid";category3.style.display = "grid";category4.style.display = "grid";
+});
+
+    showButtonteacher.addEventListener("click", function() {
+        box3.style.display = "block";
+        cate.style.display = "none";
+        cateh.style.display = "none";cateh1.style.display = "none";cateh2.style.display = "none";cateh3.style.display = "none";
+        job.style.display = "none";
+        category11.style.display = "none";
+        category12.style.display = "none";
+        home.style.display = "none";footer.style.display = "none";adv.style.display = "none";
+        category3.style.display = "none";category2.style.display = "none";category.style.display = "none";category4.style.display = "none";
+    
+    });
+    hideButton3.addEventListener("click", function() {
+        box3.style.display = "none";
+        cate.style.display = "grid";
+        cateh.style.display = "flex";cateh1.style.display = "flex";cateh2.style.display = "flex";cateh3.style.display = "flex";
+        job.style.display = "grid";
+        home.style.display = "-webkit-box";
+        footer.style.display = "grid";
+        adv.style.display = "flex";
+        category11.style.display = "grid";
+        category12.style.display = "grid";
+        category.style.display = "grid";category2.style.display = "grid";category3.style.display = "grid";category4.style.display = "grid";
+});
+
+    showButtonresaurant.addEventListener("click", function() {
+        box4.style.display = "block";
+        cate.style.display = "none";
+        cateh.style.display = "none";cateh1.style.display = "none";cateh2.style.display = "none";cateh3.style.display = "none";
+        job.style.display = "none";
+        category11.style.display = "none";
+        category12.style.display = "none";
+        home.style.display = "none";footer.style.display = "none";adv.style.display = "none";
+        category3.style.display = "none";category2.style.display = "none";category.style.display = "none";category4.style.display = "none";
+        category311.style.display = "none";
+    });
+    hideButton4.addEventListener("click", function() {
+        box4.style.display = "none";
+        cate.style.display = "grid";
+        cateh.style.display = "flex";cateh1.style.display = "flex";cateh2.style.display = "flex";cateh3.style.display = "flex";
+        job.style.display = "grid";
+        home.style.display = "-webkit-box";
+        footer.style.display = "grid";
+        adv.style.display = "flex";
+        category11.style.display = "grid";
+        category12.style.display = "grid";
+        category.style.display = "grid";category2.style.display = "grid";category3.style.display = "grid";category4.style.display = "grid";
+});
+    
+    showButtoncoffe.addEventListener("click", function() {
+        box5.style.display = "block";
+        cate.style.display = "none";
+        cateh.style.display = "none";cateh1.style.display = "none";cateh2.style.display = "none";cateh3.style.display = "none";
+        job.style.display = "none";
+        home.style.display = "none";footer.style.display = "none";adv.style.display = "none";
+        category11.style.display = "none";
+        category12.style.display = "none";
+        category3.style.display = "none";category2.style.display = "none";category.style.display = "none";category4.style.display = "none";
+        
+    });
+    hideButton5.addEventListener("click", function() {
+        box5.style.display = "none";
+        cate.style.display = "grid";
+        cateh.style.display = "flex";cateh1.style.display = "flex";cateh2.style.display = "flex";cateh3.style.display = "flex";
+        job.style.display = "grid";
+        home.style.display = "-webkit-box";
+        footer.style.display = "grid";
+        adv.style.display = "flex";
+        category11.style.display = "grid";
+        category12.style.display = "grid";
+        category.style.display = "grid";category2.style.display = "grid";category3.style.display = "grid";category4.style.display = "grid";
+});
+
+let image = document.getElementById('image');
+    let images=['https://images.akhbarelyom.com/UP/20220314230210066.jpg','https://mediaaws.almasryalyoum.com/news/large/2017/09/01/710294_0.jpg','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMMBEgAAmecb6HoKoDj9lDVozzJ6tCjNre_Q&usqp=CAU','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvkOegrlFVCO1W8BH0sU6yRlopzcOGCtzMLw&usqp=CAU','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoODVw2H3_Xa0I9lW0XiCwurM6v_h3AW3NuQ&usqp=CAU','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS7ao5IPNtW8FMTO6CReNHHgw4cm1SJjEK3Q&usqp=CAU','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1G_KZkdA6WSqTOlCjWnbjS8hOj1gia58Atw&usqp=CAU','https://www.cairo24.com/UploadCache/libfiles/63/2/600x338o/55.jpg','https://gate.ahram.org.eg/Media/Massai/News///19-2022-637970261033590337-359.jpg','https://www.cairo24.com/UploadCache/libfiles/92/5/600x338o/590.jpg','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1G_KZkdA6WSqTOlCjWnbjS8hOj1gia58Atw&usqp=CAU'];
+    setInterval(function(){
+        let random=Math.floor(Math.random()*9);
+        image.src =images[random];
+    },1000);
+    
+</script>
+
+</body>
+</html>
